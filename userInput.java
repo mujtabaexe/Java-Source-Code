@@ -19,17 +19,28 @@ public class userInput {
     float f2 = sc.nextFloat();
 
     int sum = num1 + num2 ;
-
-    float fsum= f1 + f2;
-    System.out.print("The sum of the two decimal numbers is: ");
-    System.out.println(fsum);
-
-
     System.out.print("The sum of the two numbers is: ");
     System.out.print(sum);
 
-
-        
+    
+    float fsum= f1 + f2;
+    System.out.print("The sum of the two decimal numbers is: ");
+    System.out.println(fsum);
+    
+    
+    System.out.println("Enter your full name: "); // It will print only first word of the whole string
+    String str1 = sc.next();
+    System.out.println(str1);
+    
+    
+    // System.out.println("Enter your name again : ");
+    // String str2 = sc.nextLine(); // It will read the full string
+    // System.out.println(str2);
+    
+    
+    
+    
+    
     }
 }
 
