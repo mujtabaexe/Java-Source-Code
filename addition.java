@@ -1,4 +1,4 @@
-public class Addition {
+public class Addition {}
 
     public static void main(String[] args) {
         int num1 = 6;
@@ -7,5 +7,4 @@ public class Addition {
         int sum = num1 + num2 + num3;
         System.out.print("The sum of the numbers is: ");
         System.out.print(sum);
-    }
 }
