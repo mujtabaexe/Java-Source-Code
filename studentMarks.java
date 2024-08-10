@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 private class Object{}
-public class studentMarks {
+public class StudentMarks {
     
 }
 
