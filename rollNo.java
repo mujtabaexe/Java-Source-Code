@@ -8,7 +8,7 @@ public class RollNo{
         int roll = input.nextInt();
         System.out.println("Your Roll No is: " + roll);
 
-        int a = 234_000_000; // The underscore is ignored here
+        int a = 234_000_000; // The underscore is ignored here and can be used instead of comma","
         System.out.print(a);
 
     }
