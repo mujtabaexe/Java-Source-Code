@@ -16,7 +16,8 @@ public class LargestNumber {
         float max = num1 ;
         if(num2>max){
             max = num2;
-        }else if(num3 >max){
+        }
+        if(num3 >max){
             max=num3;
         }
         System.out.println("The largest number is: "+max);
