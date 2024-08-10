@@ -11,13 +11,26 @@ public class LargestNumber {
         System.out.print("Enter the third number: ");
         float num3 = in.nextFloat();
 
-        if(num1>=num2 && num1>=num3){
-            System.out.println("The first number is the largest");
-        }else if(num2>=num1 && num2>=num3){
-            System.out.println("The second number is the largest");
-        }else{
-            System.out.println("The third number is the largest");
+
+        // This is the most efficient way than doing the below commented way 
+        float max = num1 ;
+        if(num2>max){
+            max = num2;
+        }else if(num3 >max){
+            max=num3;
         }
+        System.out.println("The largest number is: "+max);
+        
+
+        // if(num1>=num2 && num1>=num3){
+        //     System.out.println("The first number is the largest");
+        // }else if(num2>=num1 && num2>=num3){
+        //     System.out.println("The second number is the largest");
+        // }else{
+        //     System.out.println("The third number is the largest");
+        // }
+
+
         
     }
 }
