@@ -20,7 +20,7 @@ public class ConditonAndLoop {
         }
     //For Loop
 
-    for (int temp=1; temp!=11; temp++){
+    for (int temp=1; temp!=11; temp+=2){
         System.out.println(temp);
     }
 
