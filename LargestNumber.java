@@ -11,8 +11,12 @@ public class LargestNumber {
         System.out.print("Enter the third number: ");
         float num3 = in.nextFloat();
 
-
-        // This is the most efficient way than doing the below commented way 
+        
+        // This is the most efficient of finding the largest number by using built-in function
+        float maximum =  Math.max(num1, Math.max(num2 , num3 ));
+        System.out.println("The largest number is: "+max);
+        
+        // This is the most efficient way by using logic than doing the below commented way 
         float max = num1 ;
         if(num2>max){
             max = num2;
