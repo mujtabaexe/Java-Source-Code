@@ -8,7 +8,7 @@ public class TemperatureConversion {
         // int operation= 0;
         int oper= sc.nextInt();
         if(oper==1){
-            System.out.print("Enter temperature in Celcius: ")
+            System.out.print("Enter temperature in Celcius: ");
             float input= sc.nextFloat();
             System.out.println("The temperture in Farenheit is: "+ (input*(9/5)+32));
             
