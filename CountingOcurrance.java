@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class CountingOcurrance {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a large number: ");
+        long num = in.nextLong();
+
+        System.out.print("Enter the number for which you want to find the recurrence: ");
+        int r = in.nextInt();
+
+        int count = 0;
+        while (num>0){
+            long rem = num%10;
+            if(rem==r){
+                count++;
+            }
+        num=num/10;
+        }
+        System.out.println("The recurrence of "+r+" is: "+ count);
+    }
+    
+}
