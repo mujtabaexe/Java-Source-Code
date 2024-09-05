@@ -1,4 +1,4 @@
-public class Variables{}
+public class Variables{
 
         public static void main(String[] args){
         System.out.println("Types of Variables are; ");
@@ -42,4 +42,4 @@ public class Variables{}
 
 
     }
- 
+}
