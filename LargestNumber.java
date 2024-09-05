@@ -14,7 +14,7 @@ public class LargestNumber {
         
         // This is the most efficient of finding the largest number by using built-in function
         float maximum =  Math.max(num1, Math.max(num2 , num3 ));
-        System.out.println("The largest number is: "+max);
+        System.out.println("The largest number is: "+maximum);
         
         // This is the most efficient way by using logic than doing the below commented way 
         float max = num1 ;
@@ -23,7 +23,7 @@ public class LargestNumber {
         }
         if(num3 >max){
             max=num3;
-        }
+        } 
         System.out.println("The largest number is: "+max);
         
 
