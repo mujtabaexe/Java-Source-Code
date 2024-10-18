@@ -1,6 +1,4 @@
 public class Addition {
-
-    
     public static void main(String[] args) {
         int num1 = 6;
         int num2 = 3;
@@ -10,3 +8,4 @@ public class Addition {
         System.out.print(sum);
     }
 }
+
