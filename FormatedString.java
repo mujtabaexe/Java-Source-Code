@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NewFile {
+public class FormatedString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // The %d or %s indicates the width of the output
