@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Palindrome_Digit_Recursion {
+public class Palindrome_Digit {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
