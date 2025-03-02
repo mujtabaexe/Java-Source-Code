@@ -1,4 +1,9 @@
-John 85 92.5 A
-Jane 78 88.0 B
-Alice 65 75.0 C
-Bob 50 60.0 D
+Ahmad,92,91,99,null,null
+Mujtaba,97,95,99,null,null
+Bilal,55,35,65,null,null
+Sidra,50,56,80,null,null
+Iqra,29,30,65,null,null
+Sara,92,43,83,null,null
+Hamdan,58,85,76,null,null
+Zainab,69,97,74,null,null
+hamza,75,90,42,null,null
